@@ -1,0 +1,108 @@
+body{
+    font-family: 'montserrat';
+    margin: 0;
+    background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+.navbar li{
+    display: inline-block;
+   
+    padding: 10px;
+}
+.navbar a{
+    color: #000000;
+    padding:5px;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #f5ba13; 
+    
+    padding: 5px;
+    margin:0;
+}
+.footer{
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f5ba13;
+}
+.heading{
+    position: relative;
+    left: 100px;
+}
+.inputBox{
+    padding: 7px;
+    margin-left: 30%;
+    display: block;
+    margin: 25px;
+    width: 300px;
+    height: 28px;
+    border: 1px solid #f5ba13;
+    border-radius: 15px;
+}
+.inputBox:focus{
+    
+    transform: scale(1.1);
+    
+}
+.register , .product{
+    margin-left: 30%;
+}
+.signbtn{
+    margin: 25px;
+    padding:10px;
+    width:150px;
+    background-color: #f5ba13;
+    border: 1px solid ;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 100px;
+}  
+.signbtn:hover{
+    transform: scale(1.1);
+}
+.login{
+    margin-top: 100px;
+    margin-left: 35%;
+}
+ 
+.nav-right{
+    text-align: right;
+}
+img{
+    
+    width: 45px;
+    height: 45px;
+    margin-top: 3px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.error-msg{
+    margin-top: -20px;
+    color: red;
+    display: block;
+    margin-left: 20px;
+}
+.product-list{
+text-align: center;
+}
+.product-list ul{
+    margin:0;
+}
+.product-list ul li{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    width:150px;
+}
+.search-box{
+    width:400px;
+    margin: 20px;
+    height: 40px;
+    border: 1px solid #f5ba13;
+    padding-left: 20px;
+    border-radius: 16px;
+}
